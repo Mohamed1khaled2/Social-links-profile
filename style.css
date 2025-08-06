@@ -63,6 +63,8 @@ main section .username-photo {
 .about-me .user-name {
     color: hsl(0, 0%, 100%);
     margin-top: 0.625rem;
+    font-size: 1.5rem;
+    font-weight: bold
 }
 
 
@@ -112,12 +114,16 @@ main section .username-photo {
     margin-right: 0.625em;
 }
 
-@media (min-width: 375px) and (max-width: 720px) {
+@media (min-width: 320px) and (max-width: 720px) {
 
   main {
     width: 45%;
     max-width: 720px;
     min-width: 320px;
+}
+
+    .about-me .user-name {
+        font-size: 1.25rem;
 }
 
 }
