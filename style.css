@@ -22,7 +22,9 @@ main {
     background-color: hsl(0, 0%, 12%);
     padding: 0.625em;
     border-radius: 0.625em;
-    width: 25%
+    width: 35%;
+    max-width: 720px;
+
 }
 
 
@@ -108,4 +110,14 @@ main section .username-photo {
 
 .icon-link  {
     margin-right: 0.625em;
+}
+
+@media (min-width: 375px) and (max-width: 720px) {
+
+  main {
+    width: 45%;
+    max-width: 720px;
+    min-width: 260px;
+}
+
 }
