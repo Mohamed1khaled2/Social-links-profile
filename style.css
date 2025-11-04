@@ -110,8 +110,9 @@ main section .username-photo {
     color: black;
 }
 
-.icon-link  {
+.icon-link > svg  {
     margin-right: 0.625em;
+    margin-top: 0.2em;
 }
 
 @media (min-width: 320px) and (max-width: 720px) {
